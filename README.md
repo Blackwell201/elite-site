@@ -47,7 +47,7 @@
 </head>
 <body>
   <img src="ELITE.gif" alt="ELITE Logo">
-  <h1>ΞLITE Discord Server</h1>
+  <h1>ΞLITE</h1>
 
   <div class="section">
     <h2>✨ تعريف السيرفر</h2>
