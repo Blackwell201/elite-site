@@ -7,20 +7,31 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #0a0a0f;
+      background: linear-gradient(-45deg, #0a0a0f, #001f33, #00264d, #0a0a0f);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
       color: #e0e0ff;
       text-align: center;
       padding: 20px;
     }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
     h1, h2 {
       color: #00c8ff;
       text-shadow: 0 0 15px #00c8ff, 0 0 30px #0077aa;
       animation: glow 2s infinite alternate;
     }
+
     @keyframes glow {
       from { text-shadow: 0 0 10px #00c8ff, 0 0 20px #0077aa; }
       to { text-shadow: 0 0 25px #00e0ff, 0 0 45px #00c8ff; }
     }
+
     .section {
       background: #111122;
       margin: 20px auto;
@@ -31,32 +42,23 @@
       box-shadow: 0 0 20px rgba(0, 200, 255, 0.3);
       border: 1px solid #00c8ff55;
     }
+
     ul {
       line-height: 1.8;
     }
+
     a {
       color: #00c8ff;
       font-weight: bold;
       text-shadow: 0 0 10px #00c8ff;
     }
+
     a:hover {
       color: #66e0ff;
-    }
-    img {
-      max-width: 200px;
-      border-radius: 15px;
-      margin-bottom: 20px;
-      box-shadow: 0 0 25px #00c8ff, 0 0 45px #0099ff;
-      animation: glowLogo 3s infinite alternate;
-    }
-    @keyframes glowLogo {
-      from { box-shadow: 0 0 20px #00c8ff; }
-      to { box-shadow: 0 0 40px #00e0ff, 0 0 60px #0077aa; }
     }
   </style>
 </head>
 <body>
-  <img src="https://media.tenor.com/images/18241716/tenor.gif" alt="Elite Logo">
   <h1>ΞLITE Discord Server</h1>
 
   <div class="section">
@@ -100,7 +102,7 @@
     <ul>
       <li>🧑‍💻 <b>Owner</b>: PIKA , douaaa</li>
       <li>🔧 <b>Admins</b>: MEGA , 𝓡𝓲𝓶𝓲𝓲𝓲 𝜗</li>
-      <li>🛡️ <b>DEV TEAM </b>: ! ZAKI , RED , AURA    </li>
+      <li>🛡️ <b>DEV TEAM </b>: ! ZAKI , RED , AURA</li>
     </ul>
   </div>
 
