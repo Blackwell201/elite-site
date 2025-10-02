@@ -1,3 +1,12 @@
+تمام 👌 هذا الكود النهائي معدل بحيث:
+
+* اللوغو يبان لو الصورة موجودة.
+* ولو ما كانت موجودة يظهر نص بديل "ELITE LOGO".
+* مع التوهج الأزرق اللي طلبته.
+
+احفظ الملف باسم `index.html`، وحط الصورة `ELITE.gif` بجنبه.
+
+```html
 <!DOCTYPE html>
 <html lang="ar">
 <head>
@@ -7,54 +16,73 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #0e0e0e;
-      color: #f5f5f5;
+      background: #0a0a0f;
+      color: #e0e0ff;
       text-align: center;
       padding: 20px;
     }
-    h1 {
-      color: #00f7ff;
+    h1, h2 {
+      color: #00c8ff;
+      text-shadow: 0 0 15px #00c8ff, 0 0 30px #0077aa;
     }
     .section {
-      background: #1a1a1a;
+      background: #111122;
       margin: 20px auto;
-      padding: 15px;
-      border-radius: 10px;
+      padding: 20px;
+      border-radius: 12px;
       max-width: 800px;
       text-align: left;
+      box-shadow: 0 0 20px rgba(0, 200, 255, 0.3);
+      border: 1px solid #00c8ff55;
     }
-    .rules, .team {
-      margin-top: 15px;
+    ul {
+      line-height: 1.8;
     }
     a {
-      color: #00f7ff;
-      text-decoration: none;
+      color: #00c8ff;
+      font-weight: bold;
+      text-shadow: 0 0 10px #00c8ff;
     }
     a:hover {
-      text-decoration: underline;
+      color: #66e0ff;
     }
-    img {
-      max-width: 150px;
+    .logo {
+      max-width: 180px;
       border-radius: 15px;
       margin-bottom: 20px;
+      box-shadow: 0 0 25px #00c8ff;
+    }
+    .logo-fallback {
+      display: inline-block;
+      font-size: 22px;
+      font-weight: bold;
+      color: #00c8ff;
+      padding: 15px 25px;
+      border-radius: 12px;
+      border: 2px solid #00c8ff;
+      text-shadow: 0 0 15px #00c8ff, 0 0 25px #0077aa;
+      box-shadow: 0 0 30px #00c8ff;
     }
   </style>
 </head>
 <body>
-  <img src="ELITE.gif" alt="ELITE Logo">
-  <h1>ΞLITE Discord Server</h1>
+  <!-- لو الصورة موجودة تطلع، لو مش موجودة يبان النص -->
+  <img src="ELITE.gif" alt="ELITE Logo" class="logo" onerror="this.style.display='none'; document.getElementById('fallback').style.display='inline-block';">
+  <div id="fallback" class="logo-fallback" style="display:none;">ELITE LOGO</div>
+
+  <h1>ΞLITE Server</h1>
 
   <div class="section">
     <h2>✨ تعريف السيرفر</h2>
     <p>
-      Elite Server is full of fun and games. We welcome you all.  
-      There is a full team ready 24 hours a day, distinguished by its high professionalism.  
-      We have achieved great accomplishments in the shortest time.  
+      Elite Server is full of fun and games. We welcome you all.<br>
+      There is a full team ready 24 hours a day, distinguished by its high professionalism.<br>
+      We have achieved great accomplishments in the shortest time.<br>
       Welcome! We have all the games waiting for you as soon as possible.
     </p>
   </div>
 
-  <div class="section rules">
+  <div class="section">
     <h2>📜 قوانين السيرفر (العربية)</h2>
     <ul>
       <li>الاحترام متبادل بين جميع الأعضاء، أي إساءة أو تنمر ممنوع.</li>
@@ -67,7 +95,7 @@
     </ul>
   </div>
 
-  <div class="section rules">
+  <div class="section">
     <h2>📜 Rules (English)</h2>
     <ul>
       <li>Respect all members. Harassment, insults, or bullying are not allowed.</li>
@@ -80,7 +108,7 @@
     </ul>
   </div>
 
-  <div class="section team">
+  <div class="section">
     <h2>👑 فريق الإدارة</h2>
     <ul>
       <li>🧑‍💻 <b>Owner</b>: PIKA douaaa</li>
@@ -97,3 +125,7 @@
   </div>
 </body>
 </html>
+```
+
+تحب أضيفلك لمسة أنميشن (حركة وميض للتوهج الأزرق) عشان يكون الشعار أو النص يلمع باستمرار؟ ✨
+
