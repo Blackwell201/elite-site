@@ -1,12 +1,3 @@
-تمام 👌 هذا الكود النهائي معدل بحيث:
-
-* اللوغو يبان لو الصورة موجودة.
-* ولو ما كانت موجودة يظهر نص بديل "ELITE LOGO".
-* مع التوهج الأزرق اللي طلبته.
-
-احفظ الملف باسم `index.html`، وحط الصورة `ELITE.gif` بجنبه.
-
-```html
 <!DOCTYPE html>
 <html lang="ar">
 <head>
@@ -24,6 +15,11 @@
     h1, h2 {
       color: #00c8ff;
       text-shadow: 0 0 15px #00c8ff, 0 0 30px #0077aa;
+      animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #00c8ff, 0 0 20px #0077aa; }
+      to { text-shadow: 0 0 25px #00e0ff, 0 0 45px #00c8ff; }
     }
     .section {
       background: #111122;
@@ -46,31 +42,22 @@
     a:hover {
       color: #66e0ff;
     }
-    .logo {
-      max-width: 180px;
+    img {
+      max-width: 200px;
       border-radius: 15px;
       margin-bottom: 20px;
-      box-shadow: 0 0 25px #00c8ff;
+      box-shadow: 0 0 25px #00c8ff, 0 0 45px #0099ff;
+      animation: glowLogo 3s infinite alternate;
     }
-    .logo-fallback {
-      display: inline-block;
-      font-size: 22px;
-      font-weight: bold;
-      color: #00c8ff;
-      padding: 15px 25px;
-      border-radius: 12px;
-      border: 2px solid #00c8ff;
-      text-shadow: 0 0 15px #00c8ff, 0 0 25px #0077aa;
-      box-shadow: 0 0 30px #00c8ff;
+    @keyframes glowLogo {
+      from { box-shadow: 0 0 20px #00c8ff; }
+      to { box-shadow: 0 0 40px #00e0ff, 0 0 60px #0077aa; }
     }
   </style>
 </head>
 <body>
-  <!-- لو الصورة موجودة تطلع، لو مش موجودة يبان النص -->
-  <img src="ELITE.gif" alt="ELITE Logo" class="logo" onerror="this.style.display='none'; document.getElementById('fallback').style.display='inline-block';">
-  <div id="fallback" class="logo-fallback" style="display:none;">ELITE LOGO</div>
-
-  <h1>ΞLITE Server</h1>
+  <img src="ELITE.gif" alt="ELITE Logo">
+  <h1>ΞLITE Discord Server</h1>
 
   <div class="section">
     <h2>✨ تعريف السيرفر</h2>
@@ -125,7 +112,5 @@
   </div>
 </body>
 </html>
-```
 
-تحب أضيفلك لمسة أنميشن (حركة وميض للتوهج الأزرق) عشان يكون الشعار أو النص يلمع باستمرار؟ ✨
 
