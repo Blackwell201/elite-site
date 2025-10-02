@@ -1,43 +1,105 @@
-# ![لوغو السيرفر](ELITE.gif)
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ΞLITE Server</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0a0a0f;
+      color: #e0e0ff;
+      text-align: center;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #00c8ff;
+      text-shadow: 0 0 15px #00c8ff, 0 0 30px #0077aa;
+    }
+    .section {
+      background: #111122;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 800px;
+      text-align: left;
+      box-shadow: 0 0 20px rgba(0, 200, 255, 0.3);
+      border: 1px solid #00c8ff55;
+    }
+    ul {
+      line-height: 1.8;
+    }
+    a {
+      color: #00c8ff;
+      font-weight: bold;
+      text-shadow: 0 0 10px #00c8ff;
+    }
+    a:hover {
+      color: #66e0ff;
+    }
+    img {
+      max-width: 180px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 25px #00c8ff;
+    }
+  </style>
+</head>
+<body>
+  <img src="ELITE.gif" alt="ELITE Logo">
+  <h1>ΞLITE Discord Server</h1>
 
----
+  <div class="section">
+    <h2>✨ تعريف السيرفر</h2>
+    <p>
+      Elite Server is full of fun and games. We welcome you all.<br>
+      There is a full team ready 24 hours a day, distinguished by its high professionalism.<br>
+      We have achieved great accomplishments in the shortest time.<br>
+      Welcome! We have all the games waiting for you as soon as possible.
+    </p>
+  </div>
 
-## ✨ تعريف السيرفر
-**Elite Server** is full of fun and games.  
-We welcome you all. There is a full team ready 24 hours a day, distinguished by its high professionalism.  
-We have achieved great accomplishments in the shortest time. Welcome.  
-We have all the games waiting for you as soon as possible.  
+  <div class="section">
+    <h2>📜 قوانين السيرفر (العربية)</h2>
+    <ul>
+      <li>الاحترام متبادل بين جميع الأعضاء، أي إساءة أو تنمر ممنوع.</li>
+      <li>يمنع التحدث عن المواضيع الحساسة (دين – سياسة – عنصرية).</li>
+      <li>يمنع السبام (تكرار الرسائل/الإيموجي/الإشعارات).</li>
+      <li>يمنع الإعلان عن سيرفرات أو روابط خارجية بدون إذن الإدارة.</li>
+      <li>استخدم القنوات المخصصة لكل موضوع.</li>
+      <li>الحفاظ على بيئة ودية للترفيه والتعارف.</li>
+      <li>احترام قرارات الإدارة، وأي مخالفة قد تؤدي إلى الطرد أو الباند.</li>
+    </ul>
+  </div>
 
----
+  <div class="section">
+    <h2>📜 Rules (English)</h2>
+    <ul>
+      <li>Respect all members. Harassment, insults, or bullying are not allowed.</li>
+      <li>Avoid sensitive topics (religion – politics – racism).</li>
+      <li>No spamming (messages/emojis/mentions).</li>
+      <li>No advertising other servers or external links without staff permission.</li>
+      <li>Use the appropriate channels for each topic.</li>
+      <li>Keep the community friendly and fun (no trolling).</li>
+      <li>Respect staff decisions. Breaking the rules may result in kick or ban.</li>
+    </ul>
+  </div>
 
-## 📜 قوانين السيرفر (العربية)
-- 🤝 الاحترام متبادل بين جميع الأعضاء، أي إساءة أو تنمر ممنوع.  
-- ⛔ يمنع التحدث عن المواضيع الحساسة (دين – سياسة – عنصرية).  
-- 🔕 يمنع السبام (تكرار الرسائل/الإيموجي/الإشعارات).  
-- 📢 يمنع الإعلان عن سيرفرات أو روابط خارجية بدون إذن الإدارة.  
-- 🗨️ استخدم القنوات المخصصة لكل موضوع.  
-- 🎉 الحفاظ على بيئة ودية للترفيه والتعارف.  
-- ⚖️ احترام قرارات الإدارة، وأي مخالفة قد تؤدي إلى الطرد أو الباند.  
+  <div class="section">
+    <h2>👑 فريق الإدارة</h2>
+    <ul>
+      <li>🧑‍💻 <b>Owner</b>: PIKA douaaa</li>
+      <li>🔧 <b>Admins</b>: MEGA -𝓡𝓲𝓶𝓲𝓲𝓲 𝜗</li>
+      <li>🛡️ <b>Moderators</b>: ! 𝐌𝐄𝐇𝐃𝐈 , Lowski</li>
+    </ul>
+  </div>
 
----
-
-## 📜 Rules (English)
-- 🤝 Respect all members. Harassment, insults, or bullying are not allowed.  
-- ⛔ Avoid sensitive topics (religion – politics – racism).  
-- 🔕 No spamming (messages/emojis/mentions).  
-- 📢 No advertising other servers or external links without staff permission.  
-- 🗨️ Use the appropriate channels for each topic.  
-- 🎉 Keep the community friendly and fun (no trolling).  
-- ⚖️ Respect staff decisions. Breaking the rules may result in kick or ban.  
-
----
-
-## 👑 فريق الإدارة
-- 🧑‍💻 **Owner**: PIKA, douaaa  
-- 🔧 **Admins**: MEGA, 𝓡𝓲𝓶𝓲𝓲𝓲 𝜗  
-- 🛡️ **Moderators**: ! 𝐌𝐄𝐇𝐃𝐈, Lowski  
-
----
-
-## 🌐 روابط مهمة
-🔗 [انضم إلينا على Discord](https://discord.gg/elite1)  
+  <div class="section">
+    <h2>🌐 روابط مهمة</h2>
+    <p>
+      <a href="https://discord.gg/elite1" target="_blank">انضم لسيرفرنا</a>
+    </p>
+  </div>
+</body>
+</html>
+ 
